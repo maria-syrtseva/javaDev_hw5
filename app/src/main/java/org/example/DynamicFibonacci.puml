@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Task3 -> DynamicFibonacci
+DynamicFibonacci -> MethodFibonacci
+DynamicFibonacci <- MethodFibonacci:returnNumber
+@enduml

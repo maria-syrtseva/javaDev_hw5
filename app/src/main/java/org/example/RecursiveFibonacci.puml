@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Task2 -> RecursiveFibonacci
+RecursiveFibonacci -> MethodFibonacci
+RecursiveFibonacci <- MethodFibonacci:returnNumber
+@enduml
